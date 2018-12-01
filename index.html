@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- font awesome icons  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!-- custome style sheet -->
+    <link rel="stylesheet" href="style.css">
+    <title>TTT Game Baord</title>
+</head>
+<body>
+    <h3 class = "welcoming">tic tac toe</h3>
+    <div class = "board"> 
+         <div class="row1">
+            <div data-row='0' data-col='0' class = "cell C1"></div> 
+            <div data-row='0' data-col='1' class = "cell C2"></div> 
+            <div data-row='0' data-col='2' class = "cell C3"></div>
+         </div>
+         <div  class="row2">
+            <div data-row='1' data-col='0' class = "cell C4"></div> 
+            <div data-row='1' data-col='1' class = "cell C5"></div> 
+            <div data-row='1' data-col='2' class = "cell C6"></div>
+         </div>
+         <div class="row3">
+            <div data-row='2' data-col='0' class = "cell C7"></div> 
+            <div data-row='2' data-col='1' class = "cell C8"></div> 
+            <div data-row='2' data-col='2' class = "cell C9"></div>
+         </div>
+        </div>
+        <table class="score">
+            <tr>    
+                <th id='name1'>x</th>
+                <th id='name2'>y</th>
+            </tr>
+            <tr id = 'scoreBG'>
+                <td align="center" id = 'P1'></td>
+                <td align="center" id = 'P2'></td>
+            </tr> 
+            <tr id="startoverBtn">
+            <td colspan="2" align="center"> <button id = "stratOver"><i class="fas fa-sync fa-spin fa-2x"></i></button> </td>    
+            </tr>
+            
+        </table>
+        
+        <footer class = "footer">
+            <div id = 'info' >Created by YA7MO &copy 2018 - <a href='https://github.com/ya7mo' target="_blank"><i class="fab fa-github"></i></a></div>
+        </footer>
+        <script src="main.js"></script>
+</body>
+</html>

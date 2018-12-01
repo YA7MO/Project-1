@@ -1,0 +1,185 @@
+body {
+    background: radial-gradient(80% 50%, #e8e8ee, #2c2c61);
+}
+
+h3 {
+    margin: 0 auto;
+    text-align: center;
+    font-family: OCR A Std, monospace;
+}
+.board {  
+    background-color: rgba(232, 232, 232,.4);
+    height: 450px;
+    width: 410px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding:20px;
+}
+
+.fa, .far {
+    margin-top: 25%;
+    color:white;
+}
+
+.row1 {
+    position: relative;
+    height: 20%;
+    width: 100%;
+    border-radius: 5px;
+    top: 30px;
+}
+
+.cell {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    height: 100%;
+    width: 20%;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.C2 {
+    left: 40%;  
+}
+
+ .C3 {
+    left: 80%;      
+}
+
+
+.row2 {
+    position: relative;
+    height: 20%;
+    width: 100%;
+    border-radius: 10px;
+    top: 90px;
+}
+
+.C5 {
+    left: 40%;  
+}
+
+.C6 {
+    left: 80%;  
+}
+
+.row3 {
+    position: relative;
+    height: 20%;
+    width: 100%;   
+    border-radius: 10px;
+    top: 155px;
+}
+
+.C8 {
+    left: 40%;  
+}
+
+.C9 {
+    left: 80%;  
+}
+
+.score {
+    margin: 0 auto;
+    font-size: 24px;
+    color: black;
+    font-display: bold;
+    font-family: OCR A Std, monospace;
+}
+
+.welcoming {
+    font-size: 100px;
+    text-align: center;
+}
+
+label , .welcoming, input[type='text'] {
+    animation: .8s shake infinite alternate;
+    background-image: linear-gradient(10deg, 
+                    #7794ff, 
+                    #44107A,
+                    #FF1361,
+                    #FFF800);
+    /* cross-browser compatibility  */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -ms-background-clip: text;
+    -ms-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-family: 'Source Code Pro', monospace;
+    text-transform: uppercase;
+}
+
+input[type='text'] {
+    font-size: 15px;
+}
+
+@keyframes shake {
+    0% { transform: skewX(-15deg); }
+    5% { transform: skewX(15deg); }
+    10% { transform: skewX(-15deg); }
+    15% { transform: skewX(15deg); }
+    20% { transform: skewX(0deg); }
+    100% { transform: skewX(0deg); }  
+}
+
+
+div[class*='C']:hover {
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+
+a {
+   text-decoration: none; 
+   color: #e8e8ee;
+}
+
+.switch {
+    margin-left: 50%;
+}
+
+#stratOver {
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(250, 235, 215,.6);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#scoreBG {
+    background: rgba(250, 235, 215,.6);
+    text-decoration: underline;
+}
+
+.pName {
+    margin-left: 25%;
+    height: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.footer {
+    margin-top: 80px;
+    padding-top: 50px;
+    font-family: 'Source Code Pro', monospace;
+    color: whitesmoke;
+}
+
+#info {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.Playbtn {
+    padding: 20px;
+    margin: 0 auto;
+    background: #e8e8ee;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-top: 30%;
+}

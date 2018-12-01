@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- font awesome icons  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!-- custome style sheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Welcome to TTT</title>
+</head>
+<body>
+    <div class="welcoming" class="shake-slow shake-constant" >Welcome to ttt</div>
+    <form method="POST" onsubmit='' action="index.html">
+    <div class = "board"> 
+        <div class="row1">
+            <div>
+                <label for="player1">Player1 (X): 
+                <input type="text" id="player1" name="player1" class='pName' placeholder="name of 1st player" value="" required>
+                </label> 
+            </div> 
+            <div>
+                <label for="player2">Player2 (O): 
+                <input type="text" id="player2" name="player2" class='pName' placeholder="name of 2nd player" value="" required> 
+                </label>
+            </div> 
+            <div>
+                <input type="submit" class="Playbtn" value='PLAY'>
+            </div> 
+        </div>
+    </div>
+    </form>
+    <footer class = "footer">
+        <div id = 'info' >Created by YA7MO &copy 2018 - <a href='https://github.com/ya7mo' target="_blank"><i class="fab fa-github"></i></a></div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
