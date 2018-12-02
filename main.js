@@ -10,7 +10,6 @@ $(document).ready(function() {
     var player2Score = 0;
     var row = '';
     var col = '';
-    console.log($currentplayer);
     const board = [
         [' ', ' ', ' '],
         [' ', ' ', ' '],
